@@ -1,0 +1,40 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  border: 1px solid gray;
+  margin: 0 10rem;
+  background: #FFF8F3;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav h3 {
+  font-weight: 800;
+  font-size: 2rem;
+  color: #181818;
+  cursor: pointer;
+}
+nav h3 span {
+  color: #fd6e0a;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+  color: #474747;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+button {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: white;
+  border: none;
+  border-radius: 0.3125rem;
+  background: #fd6e0a;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
